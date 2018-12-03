@@ -1,0 +1,45 @@
+body{
+    background-color: forestgreen;
+}
+.parallax { 
+    /* The image used */
+    background-image: url("obrazy/paralax.png");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.padding{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 300%;
+}
+.naglowek{
+    font-size: 400%;
+    text-align: center;
+}
+.zajmuje{
+    font-size: 200%;
+    text-align: center;
+    margin-top: 2%;
+}
+.parallax2 { 
+    margin-top: 150px;
+    /* The image used */
+    background-image: url("obrazy/paralax2.png");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
