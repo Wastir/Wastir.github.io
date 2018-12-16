@@ -4,12 +4,18 @@ body {
     margin-top:0%;
     margin:0;
 }
+    
 
-@font-face
-{
+
+@font-face {
     font-family: Minecraft;
-    src: url("blocked.ttf");
+    src: url(fonts/blocked.ttf);
 }
+@font-face {
+    font-family: Minecraft2;
+    src: url(fonts/poland.otf);
+}
+
 #Scamex 
 { 
     font-family: Minecraft; 
@@ -102,8 +108,8 @@ body {
       height: 100px;
       margin-left: 3%;
       margin-top: 3%;
-      background-image: url('obrazy/brick_icon_white.jpg');
-      border: 2px solid #fff;
+      background-image: url('obrazy/ofertbutton.png');
+      border: 2px solid #000000;
     }
 .cardbox:hover {
       float: left;
@@ -111,7 +117,6 @@ body {
       height: 110px;
       margin-right: -5px;
       margin-top: -5px;
-      background-image: url('obrazy/brick_icon_black.jpg');
       border: 2px solid #000000;
     color: white;
     }
@@ -154,4 +159,50 @@ body {
     left: 34%;
     color: black;
     font-size: 150%;
+}
+
+.button1 {
+    font-family: Minecraft;
+    font-size: 300%;
+    text-align: center;
+    vertical-align: 50%;
+    background-image: url('obrazy/button.png');
+    float: left;
+    margin-left: 3%;
+    width: 251px;
+    height: 50px;
+    margin-top: -5%;
+    color: black;
+}
+.button1:hover{
+    font-family: Minecraft;
+    background-image: url('obrazy/button_blue.png');
+    float: left;
+    margin-left: 3%;
+    width: 251px;
+    height: 50px;
+    margin-top: -5%;
+    color: black;
+}
+.button2 {
+    font-family: Minecraft;
+    text-align: center;
+    font-size: 300%;
+    background-image: url('obrazy/button.png');
+    float: right;
+    margin-right: 3%;
+    width: 251px;
+    height: 50px;
+    margin-top: -5%;
+    color: black;
+}
+.button2:hover{
+    font-family: Minecraft;
+    background-image: url('obrazy/button_blue.png');
+    float: right;
+    margin-right: 3%;
+    width: 251px;
+    height: 50px;
+    margin-top: -5%;
+    color: black;
 }

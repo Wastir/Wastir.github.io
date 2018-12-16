@@ -1,6 +1,14 @@
 body{
     background-color: forestgreen;
 }
+@font-face {
+    font-family: Minecraft;
+    src: url(../fonts/blocked.ttf);
+}
+@font-face {
+    font-family: Minecraft2;
+    src: url(../fonts/poland.otf);
+}
 .parallax { 
     /* The image used */
     background-image: url("obrazy/paralax.png");
@@ -16,16 +24,55 @@ body{
 }
 
 .padding{
+    font-family: Minecraft2;
     margin-top: 150px;
     text-align: center;
-    font-size: 300%;
+    font-size: 500%;
 }
 .naglowek{
-    font-size: 400%;
+    font-family: Minecraft;
+    font-size: 700%;
     text-align: center;
 }
+.button1 {
+    font-family: Minecraft;
+    font-size: 300%;
+    text-align: center;
+    vertical-align: 50%;
+    background-color: forestgreen;
+    background-image: url('obrazy/1.jpg');
+    float: left;
+    margin-left: 7%;
+    width: 100px;
+    height: 100px;
+    margin-top: -7%;
+    color: black;
+}
+.button2 {
+    font-family: Minecraft;
+    text-align: center;
+    font-size: 300%;
+    background-image: url('../obrazy/button.png');
+    float: right;
+    margin-right: 3%;
+    width: 251px;
+    height: 50px;
+    margin-top: -5%;
+    color: black;
+}
+.button2:hover{
+    font-family: Minecraft;
+    background-image: url('../obrazy/button_blue.png');
+    float: right;
+    margin-right: 3%;
+    width: 251px;
+    height: 50px;
+    margin-top: -5%;
+    color: black;
+}
 .zajmuje{
-    font-size: 200%;
+    font-family: Minecraft2;
+    font-size: 350%;
     text-align: center;
     margin-top: 2%;
 }
