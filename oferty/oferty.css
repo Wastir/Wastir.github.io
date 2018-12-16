@@ -1,4 +1,24 @@
 @import url("../parallax/paralax.css");
 body{
-    background-color: mediumseagreen;
+    background-image: url("obrazy/emerald.png");
+}
+.indywidual{
+    width: 50%;
+    background-image: url("obrazy/gold.jpg");
+    float: left;
+    height: 300px;
+    font-size: 500%;
+    text-align: center;
+    font-family: Minecraft;
+    padding-top: 150px;    
+}
+.firma{
+    font-family: Minecraft;
+    width: 50%;
+    background-image: url("obrazy/diamond.jpg");
+    float: right;
+    height: 300px;
+    font-size: 700%;
+    text-align: center;
+    padding-top: 150px;
 }
